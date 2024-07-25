@@ -1,6 +1,7 @@
- export default function sum(a, b) {
-  return a + b
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.sum = sum;
+function sum(a, b) {
+    return a + b;
 }
-
-console.log(sum(1,2))
-
+console.log(sum(1, 2));
